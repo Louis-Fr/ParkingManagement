@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C53B370B2921726C005E0D82 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B370A2921726C005E0D82 /* main.swift */; };
+		C53B3712292172F1005E0D82 /* Vehicule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B3711292172F1005E0D82 /* Vehicule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		C53B37072921726C005E0D82 /* ParkingManagement */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ParkingManagement; sourceTree = BUILT_PRODUCTS_DIR; };
 		C53B370A2921726C005E0D82 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C53B3711292172F1005E0D82 /* Vehicule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				C53B370A2921726C005E0D82 /* main.swift */,
+				C53B3711292172F1005E0D82 /* Vehicule.swift */,
 			);
 			path = ParkingManagement;
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C53B3712292172F1005E0D82 /* Vehicule.swift in Sources */,
 				C53B370B2921726C005E0D82 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
