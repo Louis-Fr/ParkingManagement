@@ -3,7 +3,7 @@
 //  ParkingManagement
 //
 //  Created by Louis REY on 13/11/2022.
-//
+//  Classe mère
 
 import Foundation
 
@@ -23,4 +23,14 @@ class Vehicule {
     func getInfo() -> String {
         return "The owner is \(owner) \nthe registration : \(registration) \nBrand : \(brand) \nModel : \(model)"
     }
+    
+    func getRegistration() -> String {
+        return self.registration
+    }
+    
+    func getType() -> String {
+        return brand
+    }
+    
+    
 }
