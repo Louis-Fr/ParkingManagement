@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Vehicule {
+class Vehicle {
     var owner: String
     var registration: String
     var brand: String

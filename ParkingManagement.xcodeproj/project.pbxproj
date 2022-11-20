@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		C53B370B2921726C005E0D82 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B370A2921726C005E0D82 /* main.swift */; };
-		C53B3712292172F1005E0D82 /* Vehicule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B3711292172F1005E0D82 /* Vehicule.swift */; };
+		C53B3712292172F1005E0D82 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B3711292172F1005E0D82 /* Vehicle.swift */; };
 		C5658C1B2929892F00646E4D /* Space.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5658C1A2929892F00646E4D /* Space.swift */; };
-		C5A81B15292444540096E2B8 /* Voiture.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A81B14292444540096E2B8 /* Voiture.swift */; };
-		C5A81B17292444FA0096E2B8 /* Camion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A81B16292444FA0096E2B8 /* Camion.swift */; };
+		C5A81B15292444540096E2B8 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A81B14292444540096E2B8 /* Car.swift */; };
+		C5A81B17292444FA0096E2B8 /* Truck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A81B16292444FA0096E2B8 /* Truck.swift */; };
+		C5DF1AF9292AE27E008C7E14 /* SpaceCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DF1AF8292AE27E008C7E14 /* SpaceCar.swift */; };
+		C5DF1AFB292AE297008C7E14 /* SpaceTruck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DF1AFA292AE297008C7E14 /* SpaceTruck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,10 +31,12 @@
 /* Begin PBXFileReference section */
 		C53B37072921726C005E0D82 /* ParkingManagement */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ParkingManagement; sourceTree = BUILT_PRODUCTS_DIR; };
 		C53B370A2921726C005E0D82 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		C53B3711292172F1005E0D82 /* Vehicule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicule.swift; sourceTree = "<group>"; };
+		C53B3711292172F1005E0D82 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		C5658C1A2929892F00646E4D /* Space.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space.swift; sourceTree = "<group>"; };
-		C5A81B14292444540096E2B8 /* Voiture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voiture.swift; sourceTree = "<group>"; };
-		C5A81B16292444FA0096E2B8 /* Camion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camion.swift; sourceTree = "<group>"; };
+		C5A81B14292444540096E2B8 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		C5A81B16292444FA0096E2B8 /* Truck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Truck.swift; sourceTree = "<group>"; };
+		C5DF1AF8292AE27E008C7E14 /* SpaceCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceCar.swift; sourceTree = "<group>"; };
+		C5DF1AFA292AE297008C7E14 /* SpaceTruck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceTruck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,10 +70,12 @@
 			isa = PBXGroup;
 			children = (
 				C53B370A2921726C005E0D82 /* main.swift */,
-				C53B3711292172F1005E0D82 /* Vehicule.swift */,
+				C53B3711292172F1005E0D82 /* Vehicle.swift */,
 				C5658C1A2929892F00646E4D /* Space.swift */,
-				C5A81B14292444540096E2B8 /* Voiture.swift */,
-				C5A81B16292444FA0096E2B8 /* Camion.swift */,
+				C5A81B14292444540096E2B8 /* Car.swift */,
+				C5DF1AF8292AE27E008C7E14 /* SpaceCar.swift */,
+				C5DF1AFA292AE297008C7E14 /* SpaceTruck.swift */,
+				C5A81B16292444FA0096E2B8 /* Truck.swift */,
 			);
 			path = ParkingManagement;
 			sourceTree = "<group>";
@@ -133,10 +139,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5658C1B2929892F00646E4D /* Space.swift in Sources */,
-				C53B3712292172F1005E0D82 /* Vehicule.swift in Sources */,
+				C53B3712292172F1005E0D82 /* Vehicle.swift in Sources */,
+				C5DF1AF9292AE27E008C7E14 /* SpaceCar.swift in Sources */,
 				C53B370B2921726C005E0D82 /* main.swift in Sources */,
-				C5A81B17292444FA0096E2B8 /* Camion.swift in Sources */,
-				C5A81B15292444540096E2B8 /* Voiture.swift in Sources */,
+				C5A81B17292444FA0096E2B8 /* Truck.swift in Sources */,
+				C5A81B15292444540096E2B8 /* Car.swift in Sources */,
+				C5DF1AFB292AE297008C7E14 /* SpaceTruck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

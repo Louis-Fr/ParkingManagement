@@ -10,20 +10,20 @@ import Foundation
 class Space {
     var number: Int
     var isFree: Bool
-    var vehicule: Vehicule
+    var Vehicle: Vehicle?
     
-    init(number: Int, isFree: Bool, vehicule: Vehicule) {
+    init(number: Int, isFree: Bool, Vehicle: Vehicle) {
         self.number = number
         self.isFree = false
-        self.vehicule = vehicule
+        self.Vehicle = Vehicle
     }
     
     func getNumber() -> Int {
         return self.number
     }
     
-    func getVehicule() -> Vehicule {
-        return self.vehicule
+    func getVehicle() -> Vehicle {
+        return self.Vehicle!
     }
     
     func getType() -> Void {
@@ -34,8 +34,13 @@ class Space {
         return self.isFree
     }
     
-    func attributeVehicule(vehicule: Vehicule) {
-        self.vehicule = vehicule
+    func attributeVehicle(Vehicle: Vehicle) {
+        self.Vehicle = Vehicle
         self.isFree = true
+    }
+    
+    func freeSpace() {
+        self.Vehicle = nil
+        self.isFree = false
     }
 }

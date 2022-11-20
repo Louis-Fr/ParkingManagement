@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Voiture: Vehicule {
+class Car: Vehicle {
     var type: String = "voiture"
     
     override func getType() -> String {
