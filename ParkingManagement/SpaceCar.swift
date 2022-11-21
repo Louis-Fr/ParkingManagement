@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+class SpaceCar: Space {
+    var typeSpace: String = "voiture"
+    
+    
+    override func getType() -> Void {
+       print(self.typeSpace)
+    }
+}

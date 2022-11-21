@@ -32,5 +32,4 @@ class Vehicle {
         return brand
     }
     
-    
 }
